@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #dc3545;
+}
+ h2 {
+    color: #007bff;
+ }
+
+#add-review-form {
+    margin-bottom: 20px;
+    max-width: 500px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(20, 119, 12);
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    max-width: 400px;
+    margin-bottom: 20px;
+    
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#reviews-list {
+    list-style: none;
+    padding: 0;
+    max-width: 400px;
+}
+
+#reviews-list li {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+li {
+    position: relative;
+}
+
+.product-name {
+    font-weight: bold;
+}
+
+.review-text {
+    margin-top: 5px;
+}
+
+.delete-button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
